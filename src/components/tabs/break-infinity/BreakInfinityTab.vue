@@ -1,5 +1,5 @@
 <script>
-import BreakInfinityButton from "./BreakInfinityButton";
+import BreakInfinityButton from "../break-infinity/BreakInfinityButton";
 import InfinityUpgradeButton from "@/components/InfinityUpgradeButton";
 
 export default {

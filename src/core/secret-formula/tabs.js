@@ -289,6 +289,27 @@ export const tabs = [
     ],
   },
   {
+    key: "truth",
+    name: "Truth",
+    hideAt: 1.8,
+    UIClass: "o-tab-btn--eternity",
+//    component: "truthTab",
+    // condition: () =>
+      // PlayerProgress.realityUnlocked() ||
+      // player.celestials.pelle.doomed,
+    hidable: false,
+    id: 11,
+    subtabs: [
+      {
+        key: "truth",
+        name: "Truth",
+        symbol: "䔕",
+        id: 0,
+        hidable: false,
+      }
+    ]
+  },
+  {
     key: "eternity",
     name: "Eternity",
     hideAt: 1.8,
