@@ -37,7 +37,7 @@ class AchievementState extends GameMechanicState {
   }
 
   get isDisabled() {
-    return false;
+    return Pelle.isDisabled("achievements") && Pelle.disabledAchievements.includes(this.id);
   }
 
   get isEffectActive() {

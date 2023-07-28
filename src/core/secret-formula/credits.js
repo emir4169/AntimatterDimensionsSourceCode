@@ -13,17 +13,13 @@ export const credits = {
     10: "Modal Maker, Lady Taker, Pie Baker",
     11: "Lurker Tester",
     12: "Web Tester",
-    13: "Android Tester",
-    14: "Modder"
+    13: "Android Tester"
   },
 
   // Each person must have a name and at least one role (the index of the desired role in roles). They can also have a
   // second name, which will appear in parentheses besides their first.
   people: [
     {
-      name:"AdamTheDumbPerson",
-      roles: 14
-    },{
       name: "Hevipelle",
       name2: "Ivar Kerajärvi",
       roles: 1
